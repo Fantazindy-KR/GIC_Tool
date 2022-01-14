@@ -8,7 +8,7 @@ from multiprocessing import Pool
 import pandas as pd
 
 key = pd.read_csv('./keyword.txt', encoding='cp949', names=['keyword'])
-# add your searching keyword in keyword.txt file and put in same diretory with this file
+# add your searching keyword in keyword.txt file and put in same diretory with this file :)
 keyword = []
 [keyword.append(key['keyword'][x]) for x in range(len(key))]
 
